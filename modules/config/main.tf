@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "application_name" {
+resource "aws_ssm_parameter" "config_name" {
   name  = "/fierem/app/config/name"
   type  = "String"
   value = "config-api"
