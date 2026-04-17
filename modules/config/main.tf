@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "application_name" {
-  name  = "/fierem/app/name"
+  name  = "/fierem/app/ssm/config/name"
   type  = "String"
-  value = "inventory-api"
+  value = "config-api"
 }
